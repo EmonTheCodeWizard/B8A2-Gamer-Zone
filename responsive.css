@@ -5,7 +5,8 @@
     }
 
     nav, .logo-container, .item-container, 
-    .item-container ul, .banner-container{
+    .item-container ul, .banner-container,
+    .banner-img-container{
         flex-direction: column;
     }
     .item-container ul> li{
@@ -20,5 +21,13 @@
         width: 262px;
         text-align: center;
         margin-top: 62px;
+    }
+    .banner-img-container img{
+        width: 500px;
+        height: 446px;
+    }
+    .online-img-container, .play-section-container{
+        margin: 0;
+        flex-direction: column;
     }
 }
