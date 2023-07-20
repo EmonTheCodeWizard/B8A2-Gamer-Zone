@@ -1,0 +1,24 @@
+@media screen and (max-width:576px) {
+
+    nav{
+        padding-left: 40px;
+    }
+
+    nav, .logo-container, .item-container, 
+    .item-container ul{
+        flex-direction: column;
+    }
+    .item-container ul> li{
+        margin-left: 20px;
+    }
+    .item-container ul> li{
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+    }
+    .follow-us-text{
+        width: 262px;
+        text-align: center;
+        margin-top: 62px;
+    }
+}

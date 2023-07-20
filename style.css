@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Header Section Styles */
+*{
+    box-sizing: border-box;
+}
+/* Shared Styles */
+
+
+/* Navbar Styles */
+
+nav{
+    width: 100%;
+    min-height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-left: 240px;
+    
+}
+.logo-container img{
+    width: 86px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.logo-container h2{
+    color: #FF42A5;
+    font-size: 45px;
+    font-family: Work Sans;
+    font-weight: 700;
+}
+
+.logo-container .gamer-text{
+    color: #0B0223;
+}
+
+.item-container{
+    border: 1px solid or;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container ul{
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    align-items: center;
+}
+.item-container ul> li> a{
+    margin-right: 32px;
+    color: #3C354F;
+    font-family: Work Sans;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us-text{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px;
+    color: #3C354F;
+}
+
+
+
+
+
+
+
