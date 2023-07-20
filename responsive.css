@@ -5,7 +5,7 @@
     }
 
     nav, .logo-container, .item-container, 
-    .item-container ul{
+    .item-container ul, .banner-container{
         flex-direction: column;
     }
     .item-container ul> li{
