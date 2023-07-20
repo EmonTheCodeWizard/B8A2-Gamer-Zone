@@ -241,8 +241,96 @@ nav{
     border: 2px solid purple;
 }
 
+/* footer section styles */
 
+.footer-container{
+    margin-top: 120px;
+    background: #0B0223;
+}
 
+.footer-logo-container{
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    width: 50%;
+    padding-left: 800px
+    
+}
+.footer-logo-container img{
+    width: 86px;
+    height: 40px;
+    margin-right: 20px;
+}
+.footer-logo-container h2{
+    color: #FF42A5;
+    font-size: 45px;
+    font-family: Work Sans;
+    font-weight: 700;
+}
+.footer-logo-container .gamer-text{
+    color: #FFF;
+}
+
+.footer-nav{
+    padding: 60px 630px;
+}
+
+.footer-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav ul> li a{
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-right: 20px;
+}
+
+.social-icons{
+    border: 1px solid white;
+    padding: 40px 600px;
+    
+}
+
+.social-icons i{
+    width: 50px;
+    height: 10px;
+    margin: 0 30px;
+}
+
+.terms-section{
+    margin: 0 650px;
+}
+
+.terms-section a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    padding-right: 10px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-ending-text{
+    color: rgba(255, 255, 255, 0.60);
+    padding-right: 60px;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 
 
